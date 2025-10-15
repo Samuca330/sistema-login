@@ -7,8 +7,7 @@ O objetivo foi praticar a criação de formulários modernos, estilizados e com 
 
 ## 💻 Demonstração
 
-🔗 [Acesse o projeto online](https://samuca330.github.io/login/)  
-*(Substitua pelo link do seu GitHub Pages quando publicar)*
+🔗 [Acesse o projeto online](https://github.com/Samuca330/sistema-login?tab=readme-ov-file)  
 
 ---
 
