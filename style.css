@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #c91818, #991313);
+    color: #2b2b2b;
+}
+
+/* Container principal */
+.container-form {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fffafa;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    border-radius: .8rem;
+    position: relative;
+}
+
+/* Textos */
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.textos h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #c91818;
+}
+
+.textos p {
+    text-align: center;
+    margin-bottom: 0.8rem;
+    color: #333;
+}
+
+.textos hr {
+    margin-bottom: 1rem;
+}
+
+/* Inputs */
+.inputs-geral {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.input-email, .input-senha {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #c91818;
+    font-size: 1.2rem;
+}
+
+.input-icon input {
+    width: 100%;
+    padding: 1rem;
+    padding-left: 38px;
+    color: #333;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    border-radius: 0.3rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input-icon input:focus {
+    border-color: #c91818;
+    box-shadow: 0 0 5px rgba(201, 24, 24, 0.4);
+}
+
+/* Checkbox */
+.lembrar-senha {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+/* Botão */
+.botao-logar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+
+.botao-logar button {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #c91818;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.botao-logar button:hover {
+    background-color: #991313;
+}
+
+/* Criar conta */
+.criar-conta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.criar-conta a {
+    text-decoration: none;
+    color: #c91818;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.criar-conta a:hover {
+    color: #991313;
+}
+
+.error-msg {
+    color: #c91818;
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+    display: block;
+    min-height: 1rem;
+}
+

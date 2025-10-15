@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <title>Sistema - Login</title>
+</head>
+
+<body>
+    
+    <form action="">
+        <div class="container-form">
+            <div class="textos">
+                <h1>LOGIN</h1>
+
+                <p>Faça login na sua conta para continuar.</p>
+                <hr>
+            </div>
+
+            <div class="inputs-geral">
+                <div class="input-email">
+                    <label for="email">E-mail</label>
+                    <div class="input-icon">
+                        <i class='bxr  bxs-envelope'  style='color:#000000'></i> 
+                        <input type="email" id="email" placeholder="insane@realhosting.com">
+                    </div>
+                    <span id="span-email" class="error-msg"></span>
+                </div>
+
+
+                <div class="input-senha">
+                    <label for="senha">Senha</label>
+                    <div class="input-icon">
+                        <i class='bxr  bxs-lock'  style='color:#000000'></i> 
+                        <input type="password" name="senhadados" id="senha" placeholder="Digite sua senha">
+                    </div>
+                    <span id="span-senha" class="error-msg"></span>
+                </div>
+
+                <div class="lembrar-senha">
+                    
+                    <input type="checkbox" name="checkboxdados" id="check">
+                    <label for="check">Lembrar senha</label>
+                </div>
+            </div>
+
+            <div class="botao-logar">
+                <button id="botao-logar" type="submit">LOGAR</button>
+            </div>
+
+            <div class="criar-conta">
+                <p>Não está registrado?</p>
+                <a href="#">Criar Conta.</a>
+            </div>
+        </div>
+    </form>
+</body>
+
+<script src="javascript.js"></script>
+</html>
